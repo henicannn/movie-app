@@ -26,7 +26,7 @@ const Main = () => {
     if (movieType == "Theatre") {
       url =
         base_url +
-        "/discover/movie?primary_release_date.gte=2014-09-15&primary_release_date.lte=2022-02-14" +
+        "/discover/movie?primary_release_date.gte=2022-01-07&primary_release_date.lte=2022-02-14" +
         API_key;
     }
     if (movieType == "Kids") {
